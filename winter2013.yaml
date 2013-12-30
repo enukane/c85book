@@ -1,0 +1,26 @@
+bookname: winter2013
+booktitle: "マスタリング 802.11 on 9 + 無線LAN的なTips"
+subtitle:
+language: ja
+aut: n\_kane
+prt: Glenda9
+prt_url: http://github.com/enukane/winter2013book
+date: 2013-12-31
+rights: (C) Naoya Kaneko
+description: これはdescription
+
+# タイトルページは別に印刷するので不要 (title.pdf)
+titlepage: false
+# 奥付生成
+colophon: true
+pubhistory: 2013年12月31日 第一版発行
+
+toclevel: 3
+secnolevel: 3
+stylesheet: test.css
+texstyle: winter2013
+texdocumentclass: ["jsbook", "a4j,openany"]
+mytoc: true
+
+
+params: --stylesheet=test.css --footnotetext --chapterlink --subdirmode
