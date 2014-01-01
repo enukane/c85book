@@ -17,8 +17,8 @@ To install required softwares, please type as follows after installing ruby envi
 
 ## ReVIEWへのパッチ
 
-- Change TOC color from red to black
-```${REVIEWPATH}/lib/review/review.tex.erb
+- Change TOC color from red to black (${REVIEWPATH}/lib/review/review.tex.erb)
+```diff
 @@ -41,6 +41,7 @@
  \usepackage[dvipdfm,bookmarks=true,bookmarksnumbered=true,colorlinks=true,%
              pdftitle={<%= values["booktitle"] %>},%
@@ -32,3 +32,6 @@ To install required softwares, please type as follows after installing ruby envi
 ## How to Build
 
 just make it! Then ```winter2013.pdf``` is created in your winter2013book directory.
+
+## File list
+- 
