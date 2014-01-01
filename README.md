@@ -17,7 +17,17 @@ To install required softwares, please type as follows after installing ruby envi
 
 ## ReVIEWへのパッチ
 
-- TBD
+- Change TOC color from red to black
+```${REVIEWPATH}/lib/review/review.tex.erb
+@@ -41,6 +41,7 @@
+ \usepackage[dvipdfm,bookmarks=true,bookmarksnumbered=true,colorlinks=true,%
+             pdftitle={<%= values["booktitle"] %>},%
+             pdfauthor={<%= values["aut"] %>}]{hyperref}
++\hypersetup{ linkcolor=black }
+
+ \newenvironment{reviewimage}{%
+   \begin{figure}[H]
+```
 
 ## How to Build
 
