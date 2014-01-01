@@ -32,6 +32,3 @@ To install required softwares, please type as follows after installing ruby envi
 ## How to Build
 
 just make it! Then ```winter2013.pdf``` is created in your winter2013book directory.
-
-## File list
-- 
